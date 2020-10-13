@@ -2,8 +2,8 @@ import React from 'react';
 
 export const Header: React.FC = () => {
   return (
-    <div>
+    <header className="header-base">
       <p>Dope Header</p>
-    </div>
+    </header>
   )
 }
