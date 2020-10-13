@@ -22,6 +22,15 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+      main: {
+        100: '#fff1ff',
+        200: '#e0bfe8',
+        300: '#ae8fb6',
+        400: '#8eacbc',
+        500: '#607d8c',
+        600: '#34515f'
+      },
+
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
