@@ -1,4 +1,5 @@
 .header-base {
-  height: 50rem;
+  height: 60rem;
   background-color: rgb(172, 206, 206);
+  border-bottom: solid 3px black;
 }
