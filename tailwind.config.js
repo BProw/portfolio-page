@@ -23,12 +23,13 @@ module.exports = {
       white: '#fff',
 
       main: {
-        100: '#fff1ff',
-        200: '#e0bfe8',
-        300: '#ae8fb6',
-        400: '#8eacbc',
-        500: '#607d8c',
-        600: '#34515f'
+        'white': '#fff1ff',
+        'purple-light': '#e0bfe8',
+        'purple-medium': '#ae8fb6',
+        'purple-dark': '#e040fb',
+        'gray-blue-light': '#8eacbc',
+        'gray-blue-medium': '#607d8c',
+        'gray-blue-dark': '#34515f'
       },
     },
     spacing: {

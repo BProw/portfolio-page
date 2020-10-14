@@ -2,3 +2,8 @@
   height: 45rem;
   border-bottom: solid 4px #e040fb;
 }
+
+.base-button {
+  border: solid 2px #e040fb;
+  border-radius: 20px;
+}
