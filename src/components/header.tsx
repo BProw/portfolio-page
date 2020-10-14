@@ -10,8 +10,8 @@ export const Header: React.FC = () => {
       </div>
       <br/>
       <div className="flex flex-col items-center mt-20">
-        <h1 className="text-6xl">hi, my name is Garrett</h1>
-        <h2 className="text-xl">front-end developer.</h2>
+        <h1 className="text-6xl font-bold">hi, my name is Garrett</h1>
+        <h2 className="text-xl font-medium">front-end developer.</h2>
       </div>
     </header>
   )
