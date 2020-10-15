@@ -1,6 +1,5 @@
 .header-base {
   height: 48rem;
-  border-bottom: solid 4px #e040fb;
 }
 
 .base-button {
@@ -11,6 +10,6 @@
 .base-button:hover {
   background-color: #e040fb;
   color: white;
-  transition: 350ms;
+  transition: 450ms;
   opacity: .8;
 }

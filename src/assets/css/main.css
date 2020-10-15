@@ -9323,7 +9323,7 @@ video {
 }
 
 .animate-spin {
-  animation: spin 1s linear infinite;
+  animation: spin 3s linear infinite;
 }
 
 .animate-ping {
@@ -9335,6 +9335,26 @@ video {
 }
 
 .animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+.hover\:animate-none:hover {
+  animation: none;
+}
+
+.hover\:animate-spin:hover {
+  animation: spin 3s linear infinite;
+}
+
+.hover\:animate-ping:hover {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.hover\:animate-pulse:hover {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.hover\:animate-bounce:hover {
   animation: bounce 1s infinite;
 }
 
@@ -18056,7 +18076,7 @@ video {
   }
 
   .sm\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin 3s linear infinite;
   }
 
   .sm\:animate-ping {
@@ -18068,6 +18088,26 @@ video {
   }
 
   .sm\:animate-bounce {
+    animation: bounce 1s infinite;
+  }
+
+  .sm\:hover\:animate-none:hover {
+    animation: none;
+  }
+
+  .sm\:hover\:animate-spin:hover {
+    animation: spin 3s linear infinite;
+  }
+
+  .sm\:hover\:animate-ping:hover {
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .sm\:hover\:animate-pulse:hover {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .sm\:hover\:animate-bounce:hover {
     animation: bounce 1s infinite;
   }
 }
@@ -26788,7 +26828,7 @@ video {
   }
 
   .md\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin 3s linear infinite;
   }
 
   .md\:animate-ping {
@@ -26800,6 +26840,26 @@ video {
   }
 
   .md\:animate-bounce {
+    animation: bounce 1s infinite;
+  }
+
+  .md\:hover\:animate-none:hover {
+    animation: none;
+  }
+
+  .md\:hover\:animate-spin:hover {
+    animation: spin 3s linear infinite;
+  }
+
+  .md\:hover\:animate-ping:hover {
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .md\:hover\:animate-pulse:hover {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .md\:hover\:animate-bounce:hover {
     animation: bounce 1s infinite;
   }
 }
@@ -35520,7 +35580,7 @@ video {
   }
 
   .lg\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin 3s linear infinite;
   }
 
   .lg\:animate-ping {
@@ -35532,6 +35592,26 @@ video {
   }
 
   .lg\:animate-bounce {
+    animation: bounce 1s infinite;
+  }
+
+  .lg\:hover\:animate-none:hover {
+    animation: none;
+  }
+
+  .lg\:hover\:animate-spin:hover {
+    animation: spin 3s linear infinite;
+  }
+
+  .lg\:hover\:animate-ping:hover {
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .lg\:hover\:animate-pulse:hover {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .lg\:hover\:animate-bounce:hover {
     animation: bounce 1s infinite;
   }
 }
@@ -44252,7 +44332,7 @@ video {
   }
 
   .xl\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin 3s linear infinite;
   }
 
   .xl\:animate-ping {
@@ -44264,6 +44344,26 @@ video {
   }
 
   .xl\:animate-bounce {
+    animation: bounce 1s infinite;
+  }
+
+  .xl\:hover\:animate-none:hover {
+    animation: none;
+  }
+
+  .xl\:hover\:animate-spin:hover {
+    animation: spin 3s linear infinite;
+  }
+
+  .xl\:hover\:animate-ping:hover {
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .xl\:hover\:animate-pulse:hover {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .xl\:hover\:animate-bounce:hover {
     animation: bounce 1s infinite;
   }
 }
