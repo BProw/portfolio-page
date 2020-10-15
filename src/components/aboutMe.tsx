@@ -2,8 +2,8 @@ import React from 'react'
 
 export const AboutMe: React.FC = () => {
   return (
-    <section className="base-container-height w-full flex">
-      <div className="w-4/12 m-auto">
+    <section className="base-container-height w-full flex bg-main-purple-light">
+      <div className="w-1/3 m-auto">
         <h2 className="mb-4 text-center text-3xl font-bold">Nice to meet you.</h2>
         <p className="leading-loose text-xl">
           I'm baby migas banjo cold-pressed affogato jean shorts af, pickled poke cred seitan hammock. 

@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
         <h1 className="text-6xl font-bold">hi, my name is Garrett</h1>
         <h2 className="mb-64 text-xl font-medium">front-end developer.</h2>
       </div>
-      <div className="w-full flex flex-row justify-center"> 
+      <div className="w-full pt-2 flex flex-row justify-center"> 
         {getHeaderImages()}
       </div>
         <div className="border-b-2 border-main-purple-dark"></div>
