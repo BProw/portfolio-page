@@ -1,13 +1,12 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 import { headerImages }from '../assets/images/images'
 
 export const Header: React.FC = () => {
-
-  const getHeaderImages = ():JSX.Element[] => {
+    const getHeaderImages = ():JSX.Element[] => {
     return headerImages.headerIcons.map(val => {
       return <img src={`${val}`} alt="Decorative icon" className="h-16 w-16 m-6"/>
-      })
-  }
+    })
+  };
 
   return (
     <header className="header-base">
@@ -20,7 +19,7 @@ export const Header: React.FC = () => {
         <h1 className="text-6xl font-bold">hi, my name is Garrett</h1>
         <h2 className="mb-64 text-xl font-medium">front-end developer.</h2>
       </div>
-      <div className="w-full flex flex-row justify-center"> 
+      <div className="mt-20 w-full flex flex-row justify-center"> 
         {getHeaderImages()}
       </div>
         <div className="border-b-2 border-main-purple-dark"></div>
