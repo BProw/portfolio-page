@@ -23,12 +23,13 @@ module.exports = {
       white: '#fff',
 
       main: {
-        100: '#fff1ff',
-        200: '#e0bfe8',
-        300: '#ae8fb6',
-        400: '#8eacbc',
-        500: '#607d8c',
-        600: '#34515f'
+        'white': '#fff1ff',
+        'purple-light': '#e0bfe8',
+        'purple-medium': '#ae8fb6',
+        'purple-dark': '#e040fb',
+        'gray-blue-light': '#8eacbc',
+        'gray-blue-medium': '#607d8c',
+        'gray-blue-dark': '#34515f'
       },
     },
     spacing: {
@@ -538,7 +539,7 @@ module.exports = {
     },
     animation: {
       none: 'none',
-      spin: 'spin 1s linear infinite',
+      spin: 'spin 3s linear infinite',
       ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
       pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       bounce: 'bounce 1s infinite',
@@ -675,7 +676,7 @@ module.exports = {
     transitionTimingFunction: ['responsive'],
     transitionDuration: ['responsive'],
     transitionDelay: ['responsive'],
-    animation: ['responsive'],
+    animation: ['responsive', 'hover'],
   },
   corePlugins: {},
   plugins: [],

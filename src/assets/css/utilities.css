@@ -1,4 +1,15 @@
 .header-base {
-  height: 60rem;
-  border-bottom: solid 3px black;
+  height: 48rem;
+}
+
+.base-button {
+  border: solid 2px #e040fb;
+  border-radius: 20px;
+}
+
+.base-button:hover {
+  background-color: #e040fb;
+  color: white;
+  transition: 450ms;
+  opacity: .8;
 }
