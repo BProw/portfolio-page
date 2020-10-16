@@ -11,6 +11,26 @@ export const SkillsLayout: React.FC = () => {
           <h3 className="m-auto pt-20 h-48 w-5/6 text-center bg-white font-bold text-xl rounded-tr-lg">background</h3>
           </div>
         </div>
+        <div className="flex flex-row justify-center justify-evenly w-full">
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+          </ul>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+          </ul>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+          </ul>
+        </div>
       </div>
     </section>
   )
