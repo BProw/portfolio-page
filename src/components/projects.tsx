@@ -6,11 +6,11 @@ export const Projects: React.FC = () => {
   const displayProjectData = (): JSX.Element[] => {
     return projectData.map(project => {
       return (
-        <div className="flex flex-col space-between w-full m-10 p-10 border rounded border-main-purple-dark">
-          <h1 className="text-lg font-bold">{project.title}</h1>
-          <img src={project.imagePath} alt={`Display image for ${project.title}`} />
-          <p className="text-sm">{project.description}</p>
-          <a href={project.link}>Click Me</a>
+        <div className="flex flex-col space-between w-full m-10 p-8 border rounded border-main-purple-dark">
+          <h1 className="text-lg font-bold p-1">{project.title}</h1>
+          <img src={project.imagePath} alt={`Display image for ${project.title}`} className="p-1"/>
+          <p className="text-sm p-1">{project.description}</p>
+          <a href={project.link} className="p-1">Click Me</a>
         </div>
       )
     })
