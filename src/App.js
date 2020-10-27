@@ -4,6 +4,7 @@ import { AboutMe } from './components/aboutMe'
 import { SkillsLayout } from './components/skillsLayout'
 import { Projects } from './components/projects'
 import { Testimonials } from './components/testimonials'
+import { Footer } from './components/footer'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SkillsLayout />
       <Projects />
       <Testimonials />
+      <Footer />
     </div>
   );
 }
