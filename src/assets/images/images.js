@@ -15,5 +15,6 @@ export const headerImages = {
 }
 
 export const footerImages = {
+  gIcon,
   socailMediaIcons: [mail, twitter, github, linkedin],
 }
