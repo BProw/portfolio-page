@@ -13,3 +13,9 @@
   transition: 450ms;
   opacity: .8;
 }
+
+.footer-button:hover {
+  background-color: #e040fb;
+  transition: 450ms;
+  opacity: .8;
+}
