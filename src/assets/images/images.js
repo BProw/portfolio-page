@@ -11,6 +11,7 @@ import linkedin from "./linkedin.png"
 import code from "./coding.png"
 import repair from "./repair.png"
 import experience from "./achievement.png"
+import denver from "./denver.png"
 
 export const headerImages = {
   gIcon,
@@ -26,4 +27,8 @@ export const skillsIcons = {
   code,
   repair,
   experience
+}
+
+export const projectIcons ={
+  denver
 }

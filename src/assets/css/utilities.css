@@ -25,3 +25,7 @@ li {
   text-align: center;
   font-weight: 200;
 }
+
+.tweet311Gradient {
+  background: linear-gradient(#4c669f, #3b5998, #192f6a);
+}
