@@ -8,6 +8,9 @@ import mail from "./mail.png"
 import twitter from "./twitter.png"
 import github from "./github.png"
 import linkedin from "./linkedin.png"
+import code from "./coding.png"
+import repair from "./repair.png"
+import experience from "./achievement.png"
 
 export const headerImages = {
   gIcon,
@@ -17,4 +20,10 @@ export const headerImages = {
 export const footerImages = {
   gIcon,
   socailMediaIcons: [mail, twitter, github, linkedin],
+}
+
+export const skillsIcons = {
+  code,
+  repair,
+  experience
 }
