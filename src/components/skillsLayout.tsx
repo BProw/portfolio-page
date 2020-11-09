@@ -41,7 +41,7 @@ export const SkillsLayout: React.FC = () => {
           </div>
           <div className="flex flex-col mt-16">
             <h3 className="text-center mb-5 font-bold text-xl">Background</h3>
-            <h4 className="text-center text-sm font-bold text-main-purple-dark">Skills I draw from these <br/> skills to help further <br/> my develpment career.</h4>
+            <h4 className="text-center text-sm font-bold text-main-purple-dark">Skills I draw from these <br/> skills and experiences to help <br/> further my develpment career.</h4>
             <ul>
               <li>Sales</li>
               <li>Team leadership</li>
