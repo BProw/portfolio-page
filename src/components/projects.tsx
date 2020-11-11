@@ -44,20 +44,52 @@ export const Projects: React.FC = () => {
             <h2 className="text-white text-2xl font-semibold text-center m-2">Tweet311Denver</h2>
             <img src={projectIcons.denver} alt="" className="h-32 w-32 m-auto mt-5" />
           </div>
-          <div className={projectOneHover ? "flex flex-col m-auto items-center ransition duration-1000 ease-in-out" : "opacity-0"}>
+          <div className={projectOneHover ? "flex flex-col m-auto items-center duration-1000 ease-in-out" : "flex flex-col m-auto items-center opacity-0 duration-700 ease-in-out transform scale-75"}>
+            <p className="w-2/3 m-5 text-center text-white text-base">An application to improve the saftey of the commuters of Denver.</p>
+            <button className="w-2/3 p-2 text-white border rounded-full hover:bg-white hover:text-black">Watch Demo</button>
+          </div>
+        </div>
+
+
+        <div className="palettePickerGradient flex flex-row h-64 w-full rounded shadow-2xl cursor-pointer"
+          onMouseEnter={toggleProjectTwoHover}
+          onMouseLeave={toggleProjectTwoHover}
+        >
+          <div className="flex flex-col w-1/2 m-auto pl-5">
+            <img src={projectIcons.brush} alt="" className="h-32 w-32 m-auto mt-5" />
+          </div>
+          <div className={projectTwoHover ? "flex flex-col m-auto items-center duration-1000 ease-in-out" : "flex flex-col m-auto items-center opacity-0 duration-700 ease-in-out transform scale-75"}>
+            <h2 className="text-2xl font-semibold text-center">Palette Picker</h2>
+            <p className="w-2/3 m-5 text-center text-base">Create and manage beautiful color palettes.</p>
+            <button className="w-2/3 p-2 border rounded-full hover:bg-white hover:text-black">Go Live</button>
+          </div>
+        </div>
+
+
+        <div className="tweet311Gradient flex flex-row h-64 w-full rounded shadow-2xl cursor-pointer"
+          onMouseEnter={toggleProjectThreeHover}
+          onMouseLeave={toggleProjectThreeHover}
+        >
+          <div className="flex flex-col m-auto pl-5">
+            <h2 className="text-white text-2xl font-semibold text-center m-2">Iso-Challenge</h2>
+            <img src={projectIcons.denver} alt="" className="h-32 w-32 m-auto mt-5" />
+          </div>
+          <div className={projectThreeHover ? "flex flex-col m-auto items-center duration-1000 ease-in-out" : "opacity-0"}>
             <p className="w-2/3 m-5 text-center text-white text-base">An application to improve the saftey of the commuters of Denver.</p>
             <button className="w-2/3 p-2 text-white border rounded-full hover:bg-white hover:text-black">Go Live</button>
           </div>
         </div>
+
+
         <div className="tweet311Gradient flex flex-row h-64 w-full rounded shadow-2xl cursor-pointer"
-          onMouseEnter={toggleProjectTwoHover}
-          onMouseLeave={toggleProjectTwoHover}
+          onMouseEnter={toggleProjectFourHover}
+          onMouseLeave={toggleProjectFourHover}
         >
           <div className="flex flex-col m-auto pl-5">
-            <h2 className="text-white text-2xl font-semibold text-center m-2">Tweet311Denver</h2>
+            <h2 className="text-white text-2xl font-semibold text-center m-2">FitLit</h2>
             <img src={projectIcons.denver} alt="" className="h-32 w-32 m-auto mt-5" />
           </div>
-          <div className={projectTwoHover ? "flex flex-col m-auto items-center ransition duration-1000 ease-in-out" : "opacity-0"}>
+          <div className={projectFourHover ? "flex flex-col m-auto items-center ransition duration-1000 ease-in-out" : "opacity-0"}>
             <p className="w-2/3 m-5 text-center text-white text-base">An application to improve the saftey of the commuters of Denver.</p>
             <button className="w-2/3 p-2 text-white border rounded-full hover:bg-white hover:text-black">Go Live</button>
           </div>
