@@ -33,3 +33,10 @@ li {
 .palettePickerGradient {
   background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
 }
+
+.isoChallengeBackground {
+  background-image: url('../images/basketball-court.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

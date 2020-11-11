@@ -13,6 +13,7 @@ import repair from "./repair.png"
 import experience from "./achievement.png"
 import denver from "./denver.png"
 import brush from "./brush.png"
+import basketball from "./basketball-ball.png"
 
 export const headerImages = {
   gIcon,
@@ -32,5 +33,6 @@ export const skillsIcons = {
 
 export const projectIcons = {
   denver,
-  brush
+  brush,
+  basketball
 }
