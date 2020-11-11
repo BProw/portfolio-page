@@ -40,3 +40,10 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.fitlitBackground {
+  background-image: url('../images//fitlit-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

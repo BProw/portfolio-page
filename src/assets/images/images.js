@@ -14,6 +14,7 @@ import experience from "./achievement.png"
 import denver from "./denver.png"
 import brush from "./brush.png"
 import basketball from "./basketball-ball.png"
+import lightning from "./flash.png"
 
 export const headerImages = {
   gIcon,
@@ -34,5 +35,6 @@ export const skillsIcons = {
 export const projectIcons = {
   denver,
   brush,
-  basketball
+  basketball,
+  lightning
 }
