@@ -3,8 +3,18 @@ import React, { useState } from 'react'
 import { projectIcons } from '../assets/images/images'
 
 export const Projects: React.FC = () => {
-  const [projectOneHover, setHovered] = useState(false);
-  const toggleProjectOneHover = () => setHovered(!projectOneHover);
+  const [projectOneHover, setProjectOneHover] = useState(false);
+  const toggleProjectOneHover = () => setProjectOneHover(!projectOneHover);
+
+  const [projectTwoHover, setProjectTwoHover] = useState(false);
+  const toggleProjectTwoHover = () => setProjectTwoHover(!projectTwoHover);
+
+  const [projectThreeHover, setProjectThreeHover] = useState(false);
+  const toggleProjectThreeHover = () => setProjectThreeHover(!projectThreeHover);
+
+  const [projectFourHover, setHovered] = useState(false);
+  const toggleProjectFourHover = () => setHovered(!projectFourHover);
+
 
   // const displayProjectData = (): JSX.Element[] => {
   //   return projectData.map(project => {
@@ -39,19 +49,19 @@ export const Projects: React.FC = () => {
             <button className="w-2/3 p-2 text-white border rounded-full hover:bg-white hover:text-black">Go Live</button>
           </div>
         </div>
-        {/* <div className="tweet311Gradient flex flex-row h-64 w-full rounded shadow-2xl cursor-pointer"
-          onMouseEnter={toggleProjectOneHover}
-          onMouseLeave={toggleProjectOneHover}
+        <div className="tweet311Gradient flex flex-row h-64 w-full rounded shadow-2xl cursor-pointer"
+          onMouseEnter={toggleProjectTwoHover}
+          onMouseLeave={toggleProjectTwoHover}
         >
           <div className="flex flex-col m-auto pl-5">
             <h2 className="text-white text-2xl font-semibold text-center m-2">Tweet311Denver</h2>
             <img src={projectIcons.denver} alt="" className="h-32 w-32 m-auto mt-5" />
           </div>
-          <div className={hovered ? "flex flex-col m-auto items-center ransition duration-1000 ease-in-out" : "opacity-0"}>
+          <div className={projectTwoHover ? "flex flex-col m-auto items-center ransition duration-1000 ease-in-out" : "opacity-0"}>
             <p className="w-2/3 m-5 text-center text-white text-base">An application to improve the saftey of the commuters of Denver.</p>
             <button className="w-2/3 p-2 text-white border rounded-full hover:bg-white hover:text-black">Go Live</button>
           </div>
-        </div> */}
+        </div>
       </section>
     </div>
   )
