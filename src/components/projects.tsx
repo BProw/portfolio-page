@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-// import { projectData } from '../assets/data/projectData'
+import { projectData } from '../assets/data/projectData'
 import { projectIcons } from '../assets/images/images'
 
 export const Projects: React.FC = () => {
@@ -46,7 +46,7 @@ export const Projects: React.FC = () => {
           </div>
           <div className={projectOneHover ? "flex flex-col m-auto items-center duration-1000 ease-in-out" : "flex flex-col m-auto items-center opacity-0 duration-700 ease-in-out transform scale-75"}>
             <p className="w-2/3 m-5 text-center text-white text-base">An application to improve the saftey of the commuters of Denver.</p>
-            <button className="w-2/3 p-2 text-white border rounded-full hover:bg-white hover:text-black">Watch Demo</button>
+            <a href={projectData[0].link} target="_blank" className="w-2/3 p-2 text-white text-center border rounded-full hover:bg-white hover:text-black">Watch Demo</a>
           </div>
         </div>
 
@@ -61,7 +61,7 @@ export const Projects: React.FC = () => {
           <div className={projectTwoHover ? "flex flex-col m-auto items-center duration-1000 ease-in-out" : "flex flex-col m-auto items-center opacity-0 duration-700 ease-in-out transform scale-75"}>
             <h2 className="text-2xl font-semibold text-center">Palette Picker</h2>
             <p className="w-2/3 m-5 text-center text-base">Create and manage beautiful color palettes.</p>
-            <button className="w-2/3 p-2 border rounded-full hover:bg-white hover:text-black">Go Live</button>
+            <a href={projectData[1].link} target="_blank" className="w-2/3 p-2 text-center border rounded-full hover:bg-white hover:text-black">Go Live</a>
           </div>
         </div>
 
@@ -74,7 +74,7 @@ export const Projects: React.FC = () => {
             <h2 className="mt-3 text-3xl font-semibold text-center">Iso-Challenge</h2>
             <p className="w-1/2 m-2 text-center text-base">A game of meaningless basketball knowledge.</p>
             <h3 className="w-1/2 m-2 text-center text-base">Click the ball to play!</h3>
-            <img src={projectIcons.basketball} alt="" className="h-20 w-20 m-auto hover:animate-spin" />
+            <a href={projectData[3].link} target="_blank"><img src={projectIcons.basketball} alt="" className="h-20 w-20 m-auto hover:animate-spin" /></a>
           </div>
         </div>
 
@@ -87,7 +87,7 @@ export const Projects: React.FC = () => {
           <h2 className="text-white text-4xl font-bold">FitLit</h2>
           <div className={projectFourHover ? "m-auto items-center duration-1000 ease-in-out" : "m-auto items-center opacity-0 duration-700 ease-in-out transform scale-75"}>
             <p className="w-2/3 m-5 text-white text-base font-semibold">An application for both adults and kids to track their fitness metrics.</p>
-            <button className="w-2/3 p-2 text-white border rounded-full hover:bg-white hover:text-black">Go Live</button>
+            <a href={projectData[2].link} target="_blank" className="w-2/3 p-2 text-white border rounded-full hover:bg-white hover:text-black">Go Live</a>
           </div>
         </div>
       </section>
